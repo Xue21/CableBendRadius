@@ -17,12 +17,12 @@ Before running, update the database username and password in the code with your 
  ### **3.wire_control_ui_main.py**
 Before running, connect to your D435i depth camera, modify the database username and password within the code to your own credentials. This script will create a user interface.
 ## Technical Route
-### General technical route  
-  
-![1](https://github.com/Xue21/CableBendRadius/assets/103324432/0ccf53bf-1a78-4a93-a8ff-62719c0c24ce)
-### Improved DeepLabv3+ semantic segmentation model
+### General technical route
 
 ![8](https://github.com/Xue21/CableBendRadius/assets/103324432/d8c68518-edbc-41f9-ad58-b8000c72137d)
+### Improved DeepLabv3+ semantic segmentation model
+
+![1](https://github.com/Xue21/CableBendRadius/assets/103324432/0ccf53bf-1a78-4a93-a8ff-62719c0c24ce)
 ### Results  
 This is the result of the bending radius calculation of the cable I placed myself.  
   

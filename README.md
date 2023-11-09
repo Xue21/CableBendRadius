@@ -1,6 +1,8 @@
 # Calculating Cable Bend Radius Using Semantic Segmentation and a Depth Camera
 It involves calculating cable bend radius based on vision using the **Intel RealSense D435i** depth camera, and building a user interface that integrates the camera and **MySQL database**.
 ## User Interface
+![7](https://github.com/Xue21/CableBendRadius/assets/103324432/b1e42153-bf1b-4cf7-ad16-70f2b330ef21)
+
 It comprises three functional modules: real-time data display, data storage and retrieval, and algorithmic prediction. 
  - **Real-time Data Display**: This module allows real-time display of RGB images captured by the depth camera, providing immediate visual feedback
  - **Data Storage and Retrieval**: In this module, users can save and load desired images and depth information either locally or from a database.
@@ -17,17 +19,16 @@ Before running, connect to your D435i depth camera, modify the database username
 ## Technical Route
 ### General technical route  
   
-![8](https://github.com/Xue21/CableBendRadius/assets/103324432/f53c53fc-a1e9-4ded-9a37-831771f86b4d)  
+![1](https://github.com/Xue21/CableBendRadius/assets/103324432/0ccf53bf-1a78-4a93-a8ff-62719c0c24ce)
 ### Improved DeepLabv3+ semantic segmentation model
 
-![1](https://github.com/Xue21/CableBendRadius/assets/103324432/e04a8a46-61dd-4549-9524-d1e0dc924ccf)  
+![8](https://github.com/Xue21/CableBendRadius/assets/103324432/d8c68518-edbc-41f9-ad58-b8000c72137d)
 ### Results  
 This is the result of the bending radius calculation of the cable I placed myself.  
   
 <div style="display: flex;">  
-    <img src="https://github.com/Xue21/CableBendRadius/assets/103324432/ebb0a942-4957-4a98-bb19-b8a7d14cdd6a" width="30%" />  
-    <img src="https://github.com/Xue21/CableBendRadius/assets/103324432/d462c82a-3848-4290-9cff-7805fd47772d" width="30%" />  
-    <img src="https://github.com/Xue21/CableBendRadius/assets/103324432/d7d2492b-f78f-44b1-a7b6-6c4d28f70d17" width="30%" />  
-</div>  
-  
+    <img src="https://github.com/Xue21/CableBendRadius/assets/103324432/5b623de6-95c1-46bb-b435-a698c51bf17d" width="30%" />  
+    <img src="https://github.com/Xue21/CableBendRadius/assets/103324432/1855e604-a3ea-4c89-ad0b-8637caa7f207" width="30%" />  
+    <img src="https://github.com/Xue21/CableBendRadius/assets/103324432/8db33ac1-9549-4637-afa9-7231cf247c10" width="30%" />  
+</div>
 The middle image represents the semantic segmentation result, and the image on the right displays the calculation results, with each cable branch's result shown in the middle of its respective branch.

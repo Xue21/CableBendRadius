@@ -4,10 +4,10 @@ It involves calculating cable bend radius based on vision using the **Intel Real
 ![7](https://github.com/Xue21/CableBendRadius/assets/103324432/b1e42153-bf1b-4cf7-ad16-70f2b330ef21)
 
 It comprises three functional modules: real-time data display, data storage and retrieval, and algorithmic prediction. 
- - **Real-time Data Display**: This module allows real-time display of RGB images captured by the depth camera, providing immediate visual feedback
+ - **Real-time Data Display**: This module allows real-time display of RGB images captured by the depth camera, providing immediate visual feedback.
  - **Data Storage and Retrieval**: In this module, users can save and load desired images and depth information either locally or from a database.
  - **Cable Label OCR Detection**: It enables the system to detect cable type using Optical Character Recognition (OCR) algorithms and retrieve relevant information related to the identified cable type.
- - **Cable Bend Radius Detection**: This component performs calculations to determine the bend radius of cables and checks if they meet specified standards
+ - **Cable Bend Radius Detection**: This component performs calculations to determine the bend radius of cables and checks if they meet specified standards.
 ## Operating Instructions
 These instructions should help you set up and run the following three Python scripts according to your specific camera and database configurations.
 ### 1.**wire_prediction.py**
